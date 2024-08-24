@@ -21,11 +21,15 @@
 .header.down {
     background-color: white;
     padding: 0.9rem 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .header.down .header__logo,
 .header.down .header__nav-link {
     color: black;
+}
+.header.down  .header__nav-item-inicio {
+    color: white !important;
 }
 .header__nav {
     display: flex;
@@ -42,6 +46,11 @@
 
 .header__nav-item{
     list-style: none;
+}
+.header__nav-item-inicio{
+    background-color: rgb(23, 39, 82);
+    padding: .5rem;
+    border-radius: 1rem;
 }
 
 .header__nav-link{
