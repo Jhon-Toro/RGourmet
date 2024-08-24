@@ -1,0 +1,106 @@
+/* Banner */
+/* Clase padre banner, y clase bloque banner__content */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('..//img/banner.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+}
+
+.banner__content {
+    color: white;
+}
+
+.banner__title {
+    font-size: 3em;
+    margin-bottom: 1.25rem;
+}
+
+.banner__description {
+    font-size: 1.5em;
+}
+
+/* Servicios*/
+/* Clase padre service, Clase bloque service__container */
+
+.service {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.service .service__title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.service__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 0 2rem;
+
+}
+
+.service__item {
+    width: 15rem;
+    height: 25rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 0 1rem;
+}
+
+.service__item-title{
+    font-size: 1.1rem;
+    text-align: center;
+    padding: .5rem;
+}
+
+.service__item-description {
+    text-align: center;
+    padding: .5rem 0;
+    margin-bottom: .5rem;
+}
+.service__item img {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    border-radius: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.service__item-button {
+    background-color: rgb(23, 39, 82);
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: .9rem;
+    transition: transform 0.3s ease;
+}
+
+.service__item-button:hover{
+    transform: scale(1.1);
+}

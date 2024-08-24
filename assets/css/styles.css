@@ -2,4 +2,68 @@
 
 * {
     font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 1.5rem 1.25rem;
+    z-index: 10;
+}
+.header.down {
+    background-color: white;
+    padding: 0.9rem 1.5rem;
+}
+
+.header.down .header__logo,
+.header.down .header__nav-link {
+    color: black;
+}
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav-list{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav-item{
+    list-style: none;
+}
+
+.header__nav-link{
+    position: relative;
+    margin: 0 1rem;
+    text-decoration: none;
+    letter-spacing: 0.15rem;
+    color: white;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.header .header__logo {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+.header__nav-toggle {
+    display: none;
 }
