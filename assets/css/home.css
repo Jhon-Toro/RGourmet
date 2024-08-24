@@ -142,13 +142,43 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .footer__top{
+    margin-top: 1rem;
     position: relative;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-content: center;
+    gap: 8rem;
+}
+.footer__title-gourmet {
+    font-weight: 600;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+.footer__list, .footer__social-list{
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem 0;
+}
+.footer__link{
+    text-decoration: none;
+    color: white;
+}
+.footer__social-list{
+    display: flex;
+    gap: 1rem;
+}
+.footer__title-siguenos{
+    margin-left: 1.5rem;
+}
+.footer__social-item:hover{
+    background-color: rgb(23, 39, 82);
+    border-radius: 1rem;
+    height: 2rem;
 }
 .footer__hr {
     width: 80%;
@@ -158,7 +188,6 @@
     border-radius: 5px;
 }
 .footer__bottom {
-    color: white;
     text-align: center;
     margin-bottom: 1rem;
 }
