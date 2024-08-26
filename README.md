@@ -6,7 +6,7 @@
 
 ## Enlace a la prueba
 
-Visita mi portafolio en línea: [RGourmet](https://jhon-toro.github.io/RGourmet/)
+Visita mi trabajo en línea: [RGourmet](https://jhon-toro.github.io/RGourmet/)
 
 ## Tecnologías Utilizadas
 
