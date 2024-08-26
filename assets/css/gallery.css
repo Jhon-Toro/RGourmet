@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(229 231 235);
+}
 
 .main {
     margin: 6rem 0;
@@ -23,6 +26,7 @@
     position: relative;
     cursor: pointer;
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     /* Para mantener la proporcion digamos el ancho 300 px y el alto 200px. El ancho es 1.5 veces la altura  */
     aspect-ratio: 3 / 2; 
 }

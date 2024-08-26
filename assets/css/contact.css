@@ -1,0 +1,99 @@
+body {
+    background-color: rgba(0, 0, 0, 0.322);
+    background-image: url('..//img/contact.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    max-width: 25rem; 
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 1rem;
+    background-color: white;
+    margin: 6rem auto; 
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.form__item {
+    margin-bottom: 0.75rem;
+}
+
+.form__item-label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.form__item-input {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    font-size: 0.875rem; 
+}
+
+textarea {
+    resize: none;
+    height: 5rem; 
+}
+
+.form__button {
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    padding: 0.5rem; 
+    background-color: rgb(23, 39, 82);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.form__button:hover {
+    transform: scale(1.02);
+}
+    
+.form__item .error {
+    color: red;
+    font-size: 1rem; 
+}
+.submit__message{
+    color: green;
+}
+@media (max-width: 768px) {
+    .main {
+        padding: 2rem; 
+        margin: 8rem auto; 
+    }
+    .main__title {
+        font-size: 1.25rem;
+    }
+    .form__button {
+        font-size: 0.875rem;
+        padding: 0.5rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        margin: 12rem auto;
+    }
+    .main__title {
+        font-size: 1rem;
+    }
+}
