@@ -3,6 +3,8 @@
 ![RGourmet](https://github.com/Jhon-Toro/RGourmet/blob/main/assets/img/landing.PNG) <br>
 ![RGourmet](https://github.com/Jhon-Toro/RGourmet/blob/main/assets/img/services.PNG) <br>
 ![RGourmet](https://github.com/Jhon-Toro/RGourmet/blob/main/assets/img/footer.PNG) <br>
+![RGourmet](https://github.com/Jhon-Toro/RGourmet/blob/main/assets/img/Galeria.PNG) <br>
+![RGourmet](https://github.com/Jhon-Toro/RGourmet/blob/main/assets/img/Contactanos.PNG) <br>
 
 ## Enlace a la prueba
 
