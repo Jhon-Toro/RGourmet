@@ -26,7 +26,7 @@ Para visualizar el portafolio en tu entorno local, sigue estos pasos:
 
 1. **Clona el Repositorio**:
    ```bash
-   git clone https://github.com/Jhon-Toro/portfolio.git
+   git clone https://github.com/Jhon-Toro/RGourmet.git
 
 2. **Navega al Directorio del Proyecto:**
    ```bash
