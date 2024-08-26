@@ -1,7 +1,8 @@
 # RGourmet (Prueba técnica)
 
-![Portafolio](https://github.com/Jhon-Toro/Portafolio/blob/main/Portafolio1.PNG) <br>
-![Portafolio](https://github.com/Jhon-Toro/Portafolio/blob/main/Portafolio2.PNG) <br>
+![RGourmet](https://github.com/Jhon-Toro/RGourmet/blob/main/assets/img/landing.PNG) <br>
+![RGourmet](https://github.com/Jhon-Toro/RGourmet/blob/main/assets/img/services.PNG) <br>
+![RGourmet](https://github.com/Jhon-Toro/RGourmet/blob/main/assets/img/footer.PNG) <br>
 
 ## Enlace a la prueba
 
