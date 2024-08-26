@@ -20,7 +20,7 @@ Visita mi trabajo en línea: [RGourmet](https://jhon-toro.github.io/RGourmet/)
 
 - **Diseño Moderno**: Utilizo diseños bonitos y limpios para una experiencia visual atractiva.
 - **Interactividad**: Implementación de JavaScript para una navegación fluida y dinámica.
-- **Responsividad**: El portafolio está diseñado para ser accesible y usable en una variedad de dispositivos.
+- **Responsividad**: El RGourmet está diseñado para ser accesible y usable en una variedad de dispositivos.
 
 ## Instalación y Uso
 
@@ -60,4 +60,4 @@ Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consult
 
 ---
 
-¡Gracias por mirar
+¡Gracias por mirar!
